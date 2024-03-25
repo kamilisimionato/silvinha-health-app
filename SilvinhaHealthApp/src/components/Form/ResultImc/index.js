@@ -1,15 +1,15 @@
 import { View, Text, StyleSheet } from 'react-native'
 import React from 'react'
 
-export default function ResultImc() {
+export default function ResultImc(props) {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>
-        Mensagem
-        </Text>
+        {props.messageResult}
+      </Text>
       <Text style={styles.textImc}>
-        IMC
-        </Text>
+        {props.resultImc}
+      </Text>
     </View>
   )
 }
