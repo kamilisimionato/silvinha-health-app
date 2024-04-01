@@ -10,3 +10,6 @@ Executar o projeto:
     npx expo start --localhost --android
 
 Restaurar um projeto apos clonar:
+
+Para instalar o expo router:
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
